@@ -1,5 +1,9 @@
 package lk.orionux.RabbitMq_Demo.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
  * Created by Vishnuka Yahan
  *
@@ -7,6 +11,10 @@ package lk.orionux.RabbitMq_Demo.entity;
  * @data : 3/29/2024
  * @project : RabbitMq_Demo
  */
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
 public class OrderDTO {
     private Order order;
     private String orderStatus;

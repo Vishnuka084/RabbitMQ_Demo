@@ -17,8 +17,8 @@ import lombok.NoArgsConstructor;
 @Data
 public class Order {
 
-    private Integer id;
-    private String name;
-    private double price;
-    private Integer qty;
+    private Integer id ;
+    private String name ;
+    private double price ;
+    private Integer qty ;
 }
